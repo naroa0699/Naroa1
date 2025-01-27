@@ -11,7 +11,7 @@ CREATE TABLE users (
 );
 CREATE TABLE games (
     id INT8 AUTO_INCREMENT PRIMARY KEY,
-    code VARCHAR(50) NOT NULL UNIQUE,     -- Especificamos una longitud razonable para el código del juego
+    code VARCHAR(50) NOT NULL UNIQUE,     
     name VARCHAR(100) NOT NULL,
     description TEXT,
     rules TEXT
